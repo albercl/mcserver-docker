@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  papermc:
+    build: .
+    restart: always
+    container_name: "papermc"
+    environment:
+      JAVA_ARGS: "-Xmx8G"
+    volumes:
+      - "./server:/server:rw"
+    ports:
+      - "25565:25565"
+    # The following allow `docker attach minecraft` to work
+    stdin_open: true
+    tty: true

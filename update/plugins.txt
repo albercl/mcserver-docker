@@ -1,0 +1,4 @@
+https://ci.opencollab.dev//job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar
+https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/build/libs/floodgate-spigot.jar
+https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/database/sqlite/build/libs/floodgate-sqlite-database.jar
+https://github.com/SkinsRestorer/SkinsRestorerX/releases/latest/download/SkinsRestorer.jar
