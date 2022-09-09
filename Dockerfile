@@ -6,7 +6,7 @@ COPY ./update /update
 
 WORKDIR /server
 
-RUN apk add wget bash openjdk17-jre-headless
+RUN apk add wget bash zip openjdk17-jre-headless
 
 EXPOSE 25565
 
