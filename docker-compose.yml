@@ -9,6 +9,7 @@ services:
     volumes:
       - "./server:/server:rw"
       - "./backups:/backups:rw"
+      - "/etc/localtime:/etc/localtime:ro"
     ports:
       - "25565:25565"
     # The following allow `docker attach minecraft` to work

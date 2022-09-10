@@ -3,9 +3,6 @@
 # Accept EULA
 echo "eula=true" > eula.txt
 
-# Backup worlds
-/update/backup_world.sh
-
 # Update server and plugins
 /update/update_server.sh
 
